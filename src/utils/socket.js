@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-export const socket = io(process.env.REACT_APP_CHAT_SERVER, {
+export const socket = io(process.env.REACT_APP_CHAT_SERVER_TEST, {
   reconnectionDelayMax: 5000,
   transports: ["websocket"],
 });
